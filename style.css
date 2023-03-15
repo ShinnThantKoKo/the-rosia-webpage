@@ -1,17 +1,21 @@
 .carddiv {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-evenly;
 }
 .firstimg {
-    width: 45vw;
+    width: 100%;
+}
 
+.div1 {
+    background-color: rgba(166, 166, 166, 0.906);
 }
 
 .welcome-div {
-    background-color: rgba(166, 166, 166, 0.906);
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 h1 {
@@ -31,8 +35,17 @@ h6 {
     margin-bottom: 5vh;
 }
 
-.footer {
-    margin-top: 50px;
-    background-color: gray;
-    
+hr {
+    height: 5px;
+    background-color: black;
 }
+
+.facebookimg {
+    width: 50px;
+    margin-left: 45%;
+}
+
+.telegramimg {
+    width: 50px;
+}
+
