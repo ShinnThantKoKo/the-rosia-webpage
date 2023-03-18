@@ -1,15 +1,25 @@
+body {
+    background-image: linear-gradient(to right, #ffafbd, #ffc3a0);
+}
+
+.nav1 {
+    background-color: #ffafbd;
+}
+
+
 .carddiv {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
+
 .firstimg {
     width: 100%;
 }
 
 .div1 {
-    background-color: rgba(166, 166, 166, 0.906);
+    background-color: #ffafbd;
 }
 
 .welcome-div {
